@@ -12,6 +12,7 @@ to changes in state and data within an application, and to
 update the user interface in a declarative and efficient
 manner.
 
+<br>
 
 Q ) What is Library?
 
@@ -22,18 +23,21 @@ which leads to faster development and fewer vulnerabilities to
 have errors.
 Examples: React, jQuery
 
+<br>
 
 Q ) What is Framework?
 
 Framework provides a basic foundation or structure for a
 website or an application.
 
+<br>
 
 Q ) Similarities between Library and Framework?
 
 Frameworks and libraries are code written by third parties to
 solve regular/common problems or to optimise performance.
 
+<br>
 
 Q ) Difference between Library and Framework?
 
