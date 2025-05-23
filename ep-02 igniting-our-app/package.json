@@ -1,7 +1,6 @@
 {
   "name": "ep-02-igniting-our-app",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
@@ -10,5 +9,9 @@
   "description": "",
   "devDependencies": {
     "parcel": "^2.15.1"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   }
 }
