@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1751558310527" clover="3.2.0">
+  <project timestamp="1751558310528" name="All files">
+    <metrics statements="31" coveredstatements="26" conditionals="4" coveredconditionals="2" methods="14" coveredmethods="9" elements="49" coveredelements="37" complexity="0" loc="31" ncloc="31" packages="2" files="7" classes="7"/>
+    <package name="components">
+      <metrics statements="14" coveredstatements="14" conditionals="4" coveredconditionals="2" methods="7" coveredmethods="7"/>
+      <file name="Contact.js" path="D:\Learning\namaste react\master-chef\src\components\Contact.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="3" type="stmt"/>
+      </file>
+      <file name="Header.js" path="D:\Learning\namaste react\master-chef\src\components\Header.js">
+        <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="2" methods="5" coveredmethods="5"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+      </file>
+      <file name="sum.js" path="D:\Learning\namaste react\master-chef\src\components\sum.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="17" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="2"/>
+      <file name="UserContext.jsx" path="D:\Learning\namaste react\master-chef\src\utils\UserContext.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+      <file name="appStore.js" path="D:\Learning\namaste react\master-chef\src\utils\appStore.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="cartSlice.js" path="D:\Learning\namaste react\master-chef\src\utils\cartSlice.js">
+        <metrics statements="5" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
+      <file name="useOnlineStatus.js" path="D:\Learning\namaste react\master-chef\src\utils\useOnlineStatus.js">
+        <metrics statements="8" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

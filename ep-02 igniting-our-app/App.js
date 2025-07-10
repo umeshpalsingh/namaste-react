@@ -17,4 +17,5 @@ const parent = React.createElement("div", {id: "parent"}, [
 
 const root = createRoot(document.getElementById("root"));
 
-root.render(parent);
+root.render(heading);
+
