@@ -6,11 +6,13 @@ const RestaurantCard = (props) => {
   const { name, avgRating, cloudinaryImageId, sla, locality, cuisines } =
     props.restaurant.info;
 
+    // console.log(props.restaurant);
+    
 
   const {loggedInUser} = useContext(UserContext)
 
   return (
-    <div className="res-card">
+    <div className="res-card" data-testid="resCard">
       <div className="res-img">
         <img src={IMG_URL + cloudinaryImageId} alt="food" />
       </div>

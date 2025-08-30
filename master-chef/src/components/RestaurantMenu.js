@@ -17,7 +17,7 @@ const RestaurantMenu = () => {
     return <Shimmer page="RestaurantMenu" />;
   }
 
-  console.log(resInfo?.data?.cards[2]?.card?.card?.info);
+  // console.log(resInfo?.data?.cards[2]?.card?.card?.info);
 
   const {
     name,

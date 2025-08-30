@@ -8,7 +8,7 @@ import "@testing-library/jest-dom";
 test("should load header with a login button", () => {
   // render
   render(
-    <BrowserRouter future={{ v7_relativeSplatPath: true }}>
+    <BrowserRouter> 
         <Provider store={appStore}> 
             <Header />
         </Provider>

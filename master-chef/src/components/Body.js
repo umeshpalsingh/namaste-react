@@ -64,6 +64,7 @@ const Body = () => {
             <input
               type="text"
               name="search"
+              data-testid="search-input"
               placeholder="Search Restaurant"
               value={searchText}
               onChange={(e) => {
@@ -71,6 +72,7 @@ const Body = () => {
               }}
             />
             <button
+              data-testid="search-btn"
               id="search"
               onClick={() => {
                 // Filter the restaurant cards and update the UI
@@ -95,7 +97,7 @@ const Body = () => {
             />
           </div>
           <div className="filter">
-            <button className="btn-grey" onClick={filterTopRestro}> 
+            <button className="btn-grey" data-testid="toprated-btn" onClick={filterTopRestro}> 
               Top Restaurants
             </button>
             <button className="btn-grey btn-orange" onClick={clearFilter}>

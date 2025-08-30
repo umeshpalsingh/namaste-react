@@ -18,7 +18,7 @@ const User = ({name}) => {
     <div className='user-card'>
         <h2>Name: {name}</h2>
         <h3>Location: Noida</h3>
-        <h4>Contact: @akshaymarch7</h4>
+        <h4>Contact: @umeshpal</h4>
     </div>
   )
 }

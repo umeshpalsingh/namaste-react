@@ -20,9 +20,9 @@ const Header = () => {
     // If dependency array is empty = [] => useEffect is called on initial render(just once)
     // If dependency array is [btnName] => called everytime btnName is updated
 
-    useEffect(() => {
-        console.log("useEffect Called");
-    }, [btnName]);
+    // useEffect(() => {
+    //     console.log("useEffect Called");
+    // }, [btnName]);
 
     const onlineStatus = useOnlineStatus();
 
@@ -31,7 +31,7 @@ const Header = () => {
 
     // Subscribing to store using selector
     const cartItems = useSelector((store) => store.cart.items)
-    console.log(cartItems);
+    // console.log(cartItems);
     
 
     return (

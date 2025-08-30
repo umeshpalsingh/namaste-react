@@ -1,7 +1,6 @@
 import User from "./User";
 import UserClass from "./UserClass";
 import React from "react";
-import SyncedInputs from "./challenge01";
 import UserContext from "../utils/UserContext";
 
 class About extends React.Component {
@@ -18,7 +17,7 @@ class About extends React.Component {
       <div>
         <h1>About</h1>
         <h2>This is About Page</h2>
-        <User name="Akshay" />
+        <User name="Umesh" />
         <div>
           Logged In User
           <UserContext.Consumer>

@@ -3,7 +3,7 @@ import ItemList from "./ItemList";
 import { useState } from "react";
 
 const RestaurantCategory = ({data, showItems, setShowIndex}) => {
-    console.log(data);
+    // console.log(data);
 
     const title = data?.card?.card?.title;
     const itemsCount = data?.card?.card?.itemCards.length;

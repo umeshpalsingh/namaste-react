@@ -18,7 +18,7 @@ const ItemList = ({ itemdata }) => {
   }
 
   return (
-    <div className="m-roll">
+    <div className="m-roll" data-testid="fooditems">
       <div className="m-item-img">
         <img src={IMG_URL + imageId} alt="food" />
         <button className="add_to_cart" onClick={() => handleAddItem(itemdata)}>Add</button>

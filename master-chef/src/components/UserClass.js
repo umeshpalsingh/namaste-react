@@ -49,7 +49,7 @@ class UserClass extends React.Component {
                 }}>count increase</button>
                 <h2>Name: {name}</h2>
                 <h3>Location: {location}</h3>
-                <h4>Contact: @akshaymarch7</h4>
+                <h4>Contact: @umeshpal</h4>
             </div>
         )
     }
